@@ -1,0 +1,113 @@
+/* Simple clean design with UCU-style colors */
+:root {
+  --main-color: #5b2c6f;      /* deep purple */
+  --accent-color: #d4ac0d;    /* gold */
+  --bg-color: #f8f8f8;
+  --text-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--main-color);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: var(--accent-color);
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: square inside;
+  margin-top: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form button {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+form button:hover {
+  background: var(--accent-color);
+  color: black;
+}
+
+footer {
+  background: var(--main-color);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+figure img {
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+figure figcaption {
+  font-style: italic;
+  margin-top: 5px;
+}
