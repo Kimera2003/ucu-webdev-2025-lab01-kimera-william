@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UCU Noticeboard — Lab 01</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>UCU Digital Noticeboard</h1>
+    <nav aria-label="primary">
+      <a href="#news">News</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="news" aria-labelledby="news-title">
+      <h2 id="news-title">Latest News</h2>
+      <article>
+        <h3>Welcome to Web & Mobile Development</h3>
+        <p>Presenting a digital noticeboard for the Web & Mobile Development course at Uganda Christian University.
+           Here we can view updates about the course and the university community.</p>
+      </article>
+      <article>
+        <h3>Semester Kick-off</h3>
+        <p>The new semester begins on <strong>15th September 2025</strong>. 
+           Please register for all your units before the deadline.</p>
+      </article>
+    </section>
+
+    <section id="events" aria-labelledby="events-title">
+      <h2 id="events-title">Upcoming Events</h2>
+      <ul>
+        <li>Orientation — Wed 10:00–12:00</li>
+        <li>Git Workshop — Fri 14:00–16:00</li>
+        <li>First Class Meetup — Mon 09:00–10:00</li>
+        <li>End-of-Month Hackathon — Sat 09:00–18:00</li>
+      </ul>
+    </section>
+
+    <section id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Campus Gallery</h2>
+      <figure>
+        <img src="c:\Users\willi\OneDrive\Pictures\download.jpeg" alt="UCU Main Campus">
+        <figcaption>Uganda Christian University Main Campus</figcaption>
+      </figure>
+      <figure>
+        <img src="https://images.c:\Users\willi\OneDrive\Pictures\images.jpeg" alt="Students studying together">
+        <figcaption>Students collaborating together</figcaption>
+      </figure>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Us</h2>
+      <form>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" required />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Uganda Christian University — Web & Mobile Development</small>
+  </footer>
+</body>
+</html>
